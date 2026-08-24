@@ -45,7 +45,7 @@ jobs:
           ls ~/.buildozer/android/platform/ | grep ndk
 
       - name: Build APK
-        run: buildozer android debug 2>&1 | tee build.log
+        run: buildozer android debug
 
       - name: Upload APK
         if: success()
@@ -53,10 +53,3 @@ jobs:
         with:
           name: InnovationDino-APK
           path: bin/*.apk
-
-      - name: Upload build log
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-log
-          path: build.log
