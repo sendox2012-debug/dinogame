@@ -1,5 +1,4 @@
 name: Build APK
-
 on: [push, workflow_dispatch]
 
 jobs:
@@ -24,36 +23,31 @@ jobs:
             wget curl ca-certificates lld
 
       - name: Install Python dependencies
-        run: |
-          pip install --upgrade pip
-          pip install buildozer cython
+        run: pip install buildozer cython
 
-      - name: Force NDK r25b
+      - name: Force NDK r25b via env
+        run: |
+          echo "ANDROIDNDKVER=r25b" >> $GITHUB_ENV
+          echo "P4A_NDK_VERSION=25b" >> $GITHUB_ENV
+
+      - name: Pre-download NDK r25b
         run: |
           mkdir -p ~/.buildozer/android/platform
           if [ ! -d ~/.buildozer/android/platform/android-ndk-r25b ]; then
-            echo "Downloading NDK r25b..."
             wget -q https://dl.google.com/android/repository/android-ndk-r25b-linux.zip -O /tmp/ndk.zip
             unzip -q /tmp/ndk.zip -d ~/.buildozer/android/platform/
             rm /tmp/ndk.zip
-            echo "NDK r25b installed"
-          else
-            echo "NDK r25b already exists"
           fi
-          ls -la ~/.buildozer/android/platform/
+          ls ~/.buildozer/android/platform/ | grep ndk
 
-      - name: Verify buildozer.spec
+      - name: Verify spec
         run: |
-          echo "=== buildozer.spec contents ==="
+          echo "--- buildozer.spec ---"
           cat buildozer.spec
-          echo "==============================="
-          grep -n "ndk_version" buildozer.spec || echo "WARNING: ndk_version NOT FOUND in spec!"
+          echo "--- end ---"
 
       - name: Build APK
-        run: |
-          # pipefail гарантирует, что падение buildozer прервет шаг, несмотря на tee
-          set -o pipefail
-          buildozer android debug 2>&1 | tee build.log
+        run: buildozer android debug 2>&1 | tee build.log
 
       - name: Upload APK
         if: success()
@@ -62,8 +56,8 @@ jobs:
           name: InnovationDino-APK
           path: bin/*.apk
 
-      - name: Upload build log on failure
-        if: failure()
+      - name: Upload build log
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: build-log
