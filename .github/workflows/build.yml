@@ -17,34 +17,37 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
             git zip unzip openjdk-17-jdk \
-            autoconf automake libtool libtool-bin pkg-config \
+            autoconf libtool pkg-config \
             zlib1g-dev libncurses5-dev libncursesw5-dev \
             cmake libffi-dev libssl-dev build-essential \
-            wget curl ca-certificates lld m4
+            wget curl ca-certificates lld
 
       - name: Install Python dependencies
         run: pip install buildozer cython
 
-      - name: Force NDK r25b
+      - name: Force NDK r25b via env
+        run: |
+          echo "ANDROIDNDKVER=r25b" >> $GITHUB_ENV
+          echo "P4A_NDK_VERSION=25b" >> $GITHUB_ENV
+
+      - name: Pre-download NDK r25b
         run: |
           mkdir -p ~/.buildozer/android/platform
           if [ ! -d ~/.buildozer/android/platform/android-ndk-r25b ]; then
-            echo "Downloading NDK r25b..."
             wget -q https://dl.google.com/android/repository/android-ndk-r25b-linux.zip -O /tmp/ndk.zip
             unzip -q /tmp/ndk.zip -d ~/.buildozer/android/platform/
             rm /tmp/ndk.zip
           fi
-          # Проверяем что распаковалось
-          ls ~/.buildozer/android/platform/
+          ls ~/.buildozer/android/platform/ | grep ndk
 
-      - name: Build APK (Fixed NDK Path)
+      - name: Verify spec
         run: |
-          # Запускаем сборку, явно указывая путь к нашему NDK r25b
-          # Это перебивает внутренние настройки buildozer
-          export ANDROIDNDKVER=r25b
-          export P4A_NDK_DIR=$HOME/.buildozer/android/platform/android-ndk-r25b
-          
-          buildozer android debug
+          echo "--- buildozer.spec ---"
+          cat buildozer.spec
+          echo "--- end ---"
+
+      - name: Build APK
+        run: buildozer android debug 2>&1 | tee build.log
 
       - name: Upload APK
         if: success()
@@ -52,3 +55,10 @@ jobs:
         with:
           name: InnovationDino-APK
           path: bin/*.apk
+
+      - name: Upload build log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-log
+          path: build.log
