@@ -1,0 +1,2547 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/uname"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/uname"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/uname"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/uname"
+      - "/home/said/pygame/mygame/.venv/bin/uname"
+      - "/home/said/.cargo/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Android - 1 - aarch64
+      The host system is: Linux - 7.1.8-zen1-3-zen - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sbin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/gmake"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sbin/gmake"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/gmake"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/gmake"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/gmake"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/gmake"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/gmake"
+      - "/home/said/pygame/mygame/.venv/bin/gmake"
+      - "/home/said/.cargo/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/var/lib/flatpak/exports/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/usr/lib/aarch64-linux-android/21/bin/gmake"
+      - "/usr/lib/aarch64-linux-android/21/sbin/gmake"
+      - "/usr/lib/aarch64-linux-android/21/gmake"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/make"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sbin/make"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/make"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/make"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/make"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/make"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/make"
+      - "/home/said/pygame/mygame/.venv/bin/make"
+      - "/home/said/.cargo/bin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-Wformat;-Werror=format-security
+      Id flags: -c;--target=aarch64-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/4.4.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-dlltool"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/tapi"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/tapi"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/tapi"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/tapi"
+      - "/home/said/pygame/mygame/.venv/bin/tapi"
+      - "/home/said/.cargo/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/var/lib/flatpak/exports/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+      - "/usr/lib/aarch64-linux-android/21/bin/tapi"
+      - "/usr/lib/aarch64-linux-android/21/sbin/tapi"
+      - "/usr/lib/aarch64-linux-android/21/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-19.0"
+      - "llvm-ar-19"
+      - "llvm-ar19"
+      - "llvm-ar"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19.0"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ar-19.0"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ar-19.0"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-19.0"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ar-19.0"
+      - "/home/said/.cargo/bin/llvm-ar-19.0"
+      - "/usr/local/bin/llvm-ar-19.0"
+      - "/usr/bin/llvm-ar-19.0"
+      - "/bin/llvm-ar-19.0"
+      - "/usr/local/sbin/llvm-ar-19.0"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-19.0"
+      - "/usr/bin/site_perl/llvm-ar-19.0"
+      - "/usr/bin/vendor_perl/llvm-ar-19.0"
+      - "/usr/bin/core_perl/llvm-ar-19.0"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ar-19.0"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ar-19.0"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ar-19.0"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ar-19"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ar-19"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-19"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ar-19"
+      - "/home/said/.cargo/bin/llvm-ar-19"
+      - "/usr/local/bin/llvm-ar-19"
+      - "/usr/bin/llvm-ar-19"
+      - "/bin/llvm-ar-19"
+      - "/usr/local/sbin/llvm-ar-19"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-19"
+      - "/usr/bin/site_perl/llvm-ar-19"
+      - "/usr/bin/vendor_perl/llvm-ar-19"
+      - "/usr/bin/core_perl/llvm-ar-19"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ar-19"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ar-19"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ar-19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ar19"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ar19"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar19"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ar19"
+      - "/home/said/.cargo/bin/llvm-ar19"
+      - "/usr/local/bin/llvm-ar19"
+      - "/usr/bin/llvm-ar19"
+      - "/bin/llvm-ar19"
+      - "/usr/local/sbin/llvm-ar19"
+      - "/var/lib/flatpak/exports/bin/llvm-ar19"
+      - "/usr/bin/site_perl/llvm-ar19"
+      - "/usr/bin/vendor_perl/llvm-ar19"
+      - "/usr/bin/core_perl/llvm-ar19"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ar19"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ar19"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ar19"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-19.0"
+      - "llvm-ranlib-19"
+      - "llvm-ranlib19"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19.0"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-19.0"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-19.0"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-19.0"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ranlib-19.0"
+      - "/home/said/.cargo/bin/llvm-ranlib-19.0"
+      - "/usr/local/bin/llvm-ranlib-19.0"
+      - "/usr/bin/llvm-ranlib-19.0"
+      - "/bin/llvm-ranlib-19.0"
+      - "/usr/local/sbin/llvm-ranlib-19.0"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-19.0"
+      - "/usr/bin/site_perl/llvm-ranlib-19.0"
+      - "/usr/bin/vendor_perl/llvm-ranlib-19.0"
+      - "/usr/bin/core_perl/llvm-ranlib-19.0"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ranlib-19.0"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ranlib-19.0"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ranlib-19.0"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-19"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-19"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-19"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ranlib-19"
+      - "/home/said/.cargo/bin/llvm-ranlib-19"
+      - "/usr/local/bin/llvm-ranlib-19"
+      - "/usr/bin/llvm-ranlib-19"
+      - "/bin/llvm-ranlib-19"
+      - "/usr/local/sbin/llvm-ranlib-19"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-19"
+      - "/usr/bin/site_perl/llvm-ranlib-19"
+      - "/usr/bin/vendor_perl/llvm-ranlib-19"
+      - "/usr/bin/core_perl/llvm-ranlib-19"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ranlib-19"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ranlib-19"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ranlib-19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib19"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ranlib19"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib19"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ranlib19"
+      - "/home/said/.cargo/bin/llvm-ranlib19"
+      - "/usr/local/bin/llvm-ranlib19"
+      - "/usr/bin/llvm-ranlib19"
+      - "/bin/llvm-ranlib19"
+      - "/usr/local/sbin/llvm-ranlib19"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib19"
+      - "/usr/bin/site_perl/llvm-ranlib19"
+      - "/usr/bin/vendor_perl/llvm-ranlib19"
+      - "/usr/bin/core_perl/llvm-ranlib19"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ranlib19"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ranlib19"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ranlib19"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-19.0"
+      - "clang-scan-deps-19"
+      - "clang-scan-deps19"
+      - "clang-scan-deps"
+      - "clang-scan-deps-19.0"
+      - "clang-scan-deps-19"
+      - "clang-scan-deps19"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19.0"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-19.0"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-19.0"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-19.0"
+      - "/home/said/pygame/mygame/.venv/bin/clang-scan-deps-19.0"
+      - "/home/said/.cargo/bin/clang-scan-deps-19.0"
+      - "/usr/local/bin/clang-scan-deps-19.0"
+      - "/usr/bin/clang-scan-deps-19.0"
+      - "/bin/clang-scan-deps-19.0"
+      - "/usr/local/sbin/clang-scan-deps-19.0"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-19.0"
+      - "/usr/bin/site_perl/clang-scan-deps-19.0"
+      - "/usr/bin/vendor_perl/clang-scan-deps-19.0"
+      - "/usr/bin/core_perl/clang-scan-deps-19.0"
+      - "/usr/lib/aarch64-linux-android/21/bin/clang-scan-deps-19.0"
+      - "/usr/lib/aarch64-linux-android/21/sbin/clang-scan-deps-19.0"
+      - "/usr/lib/aarch64-linux-android/21/clang-scan-deps-19.0"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-19"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-19"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-19"
+      - "/home/said/pygame/mygame/.venv/bin/clang-scan-deps-19"
+      - "/home/said/.cargo/bin/clang-scan-deps-19"
+      - "/usr/local/bin/clang-scan-deps-19"
+      - "/usr/bin/clang-scan-deps-19"
+      - "/bin/clang-scan-deps-19"
+      - "/usr/local/sbin/clang-scan-deps-19"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-19"
+      - "/usr/bin/site_perl/clang-scan-deps-19"
+      - "/usr/bin/vendor_perl/clang-scan-deps-19"
+      - "/usr/bin/core_perl/clang-scan-deps-19"
+      - "/usr/lib/aarch64-linux-android/21/bin/clang-scan-deps-19"
+      - "/usr/lib/aarch64-linux-android/21/sbin/clang-scan-deps-19"
+      - "/usr/lib/aarch64-linux-android/21/clang-scan-deps-19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps19"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps19"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/clang-scan-deps19"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps19"
+      - "/home/said/pygame/mygame/.venv/bin/clang-scan-deps19"
+      - "/home/said/.cargo/bin/clang-scan-deps19"
+      - "/usr/local/bin/clang-scan-deps19"
+      - "/usr/bin/clang-scan-deps19"
+      - "/bin/clang-scan-deps19"
+      - "/usr/local/sbin/clang-scan-deps19"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps19"
+      - "/usr/bin/site_perl/clang-scan-deps19"
+      - "/usr/bin/vendor_perl/clang-scan-deps19"
+      - "/usr/bin/core_perl/clang-scan-deps19"
+      - "/usr/lib/aarch64-linux-android/21/bin/clang-scan-deps19"
+      - "/usr/lib/aarch64-linux-android/21/sbin/clang-scan-deps19"
+      - "/usr/lib/aarch64-linux-android/21/clang-scan-deps19"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d556b/fast
+        make -j12  -f CMakeFiles/cmTC_d556b.dir/build.make CMakeFiles/cmTC_d556b.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG'
+        Building C object CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: aarch64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG -resource-dir /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -target-feature -fmv -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include
+         /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android
+         /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        Linking C executable cmTC_d556b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d556b.dir/link.txt --verbose=1
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: aarch64-none-linux-android21
+        Thread model: posix
+        InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --hash-style=both --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_d556b /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -o cmTC_d556b
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+          add: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+          add: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        collapse include dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+        collapse include dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include;/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android;/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d556b/fast]
+        ignore line: [make -j12  -f CMakeFiles/cmTC_d556b.dir/build.make CMakeFiles/cmTC_d556b.dir/build]
+        ignore line: [make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG']
+        ignore line: [Building C object CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: aarch64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Y8BJmG -resource-dir /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -target-feature +outline-atomics -target-feature -fmv -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        ignore line: [ /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/aarch64-linux-android]
+        ignore line: [ /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_d556b]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d556b.dir/link.txt --verbose=1]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: aarch64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --hash-style=both --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_d556b /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> linker [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld]
+        link line: [ "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --hash-style=both --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_d556b /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> linker architecture flags [-m;aarch64linux]
+        link line: [ "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --hash-style=both --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_d556b /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android -L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+          arg [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=16384] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d556b] ==> ignore
+          arg [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> obj [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o]
+          arg [-L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64] ==> dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64]
+          arg [-L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+          arg [-L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android]
+          arg [-L/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [CMakeFiles/cmTC_d556b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> obj [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+        linker tool for 'C': /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld -m;aarch64linux
+        remove lib [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64]
+        collapse library dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+        collapse library dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android]
+        collapse library dir [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o;/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+        implicit dirs: [/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/aarch64;/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/21;/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android;/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" "-v"
+      LLD 19.0.1 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:457 (check_include_file)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gGfZYp"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gGfZYp"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gGfZYp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cb005/fast
+        make -j12  -f CMakeFiles/cmTC_cb005.dir/build.make CMakeFiles/cmTC_cb005.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gGfZYp'
+        Building C object CMakeFiles/cmTC_cb005.dir/CheckIncludeFile.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_cb005.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_cb005.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_cb005.dir/CheckIncludeFile.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gGfZYp/CheckIncludeFile.c
+        Linking C executable cmTC_cb005
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb005.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_cb005.dir/CheckIncludeFile.c.o -o cmTC_cb005  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gGfZYp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:458 (check_include_file)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-aRKc4m"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-aRKc4m"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-aRKc4m'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2df1a/fast
+        make -j12  -f CMakeFiles/cmTC_2df1a.dir/build.make CMakeFiles/cmTC_2df1a.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-aRKc4m'
+        Building C object CMakeFiles/cmTC_2df1a.dir/CheckIncludeFile.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_2df1a.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_2df1a.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_2df1a.dir/CheckIncludeFile.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-aRKc4m/CheckIncludeFile.c
+        Linking C executable cmTC_2df1a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df1a.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_2df1a.dir/CheckIncludeFile.c.o -o cmTC_2df1a  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-aRKc4m'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFile.cmake:157 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:459 (check_include_file)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-wXm8jO"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-wXm8jO"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-wXm8jO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_58d4c/fast
+        make -j12  -f CMakeFiles/cmTC_58d4c.dir/build.make CMakeFiles/cmTC_58d4c.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-wXm8jO'
+        Building C object CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-wXm8jO/CheckIncludeFile.c
+        Linking C executable cmTC_58d4c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58d4c.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_58d4c.dir/CheckIncludeFile.c.o -o cmTC_58d4c  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-wXm8jO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:344 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:476 (__check_type_size_impl)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-4qxalS"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-4qxalS"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-4qxalS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9451c/fast
+        make -j12  -f CMakeFiles/cmTC_9451c.dir/build.make CMakeFiles/cmTC_9451c.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-4qxalS'
+        Building C object CMakeFiles/cmTC_9451c.dir/SIZE_T.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_9451c.dir/SIZE_T.c.o -MF CMakeFiles/cmTC_9451c.dir/SIZE_T.c.o.d -o CMakeFiles/cmTC_9451c.dir/SIZE_T.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-4qxalS/SIZE_T.c
+        Linking C executable cmTC_9451c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9451c.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_9451c.dir/SIZE_T.c.o -o cmTC_9451c  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-4qxalS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:344 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:476 (__check_type_size_impl)"
+      - "CMakeLists.txt:354 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-QJyGYd"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-QJyGYd"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-QJyGYd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_de35c/fast
+        make -j12  -f CMakeFiles/cmTC_de35c.dir/build.make CMakeFiles/cmTC_de35c.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-QJyGYd'
+        Building C object CMakeFiles/cmTC_de35c.dir/UNSIGNED_LONG.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_de35c.dir/UNSIGNED_LONG.c.o -MF CMakeFiles/cmTC_de35c.dir/UNSIGNED_LONG.c.o.d -o CMakeFiles/cmTC_de35c.dir/UNSIGNED_LONG.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-QJyGYd/UNSIGNED_LONG.c
+        Linking C executable cmTC_de35c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de35c.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_de35c.dir/UNSIGNED_LONG.c.o -o cmTC_de35c  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-QJyGYd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:357 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZL"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-WT6L8N"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-WT6L8N"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-WT6L8N'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3e9bd/fast
+        make -j12  -f CMakeFiles/cmTC_3e9bd.dir/build.make CMakeFiles/cmTC_3e9bd.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-WT6L8N'
+        Building C object CMakeFiles/cmTC_3e9bd.dir/src.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_BUILTIN_CTZL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_3e9bd.dir/src.c.o -MF CMakeFiles/cmTC_3e9bd.dir/src.c.o.d -o CMakeFiles/cmTC_3e9bd.dir/src.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-WT6L8N/src.c
+        Linking C executable cmTC_3e9bd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e9bd.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_3e9bd.dir/src.c.o -o cmTC_3e9bd  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-WT6L8N'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "CMakeLists.txt:366 (check_include_files)"
+    checks:
+      - "Looking for include file locale.h"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-p0DQ7q"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-p0DQ7q"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-p0DQ7q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4deb8/fast
+        make -j12  -f CMakeFiles/cmTC_4deb8.dir/build.make CMakeFiles/cmTC_4deb8.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-p0DQ7q'
+        Building C object CMakeFiles/cmTC_4deb8.dir/HAVE_LOCALE_H.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_4deb8.dir/HAVE_LOCALE_H.c.o -MF CMakeFiles/cmTC_4deb8.dir/HAVE_LOCALE_H.c.o.d -o CMakeFiles/cmTC_4deb8.dir/HAVE_LOCALE_H.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-p0DQ7q/HAVE_LOCALE_H.c
+        Linking C executable cmTC_4deb8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4deb8.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_4deb8.dir/HAVE_LOCALE_H.c.o -o cmTC_4deb8  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-p0DQ7q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "CMakeLists.txt:368 (check_include_files)"
+    checks:
+      - "Looking for include file stdlib.h"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vArvSd"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vArvSd"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vArvSd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbbbe/fast
+        make -j12  -f CMakeFiles/cmTC_cbbbe.dir/build.make CMakeFiles/cmTC_cbbbe.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vArvSd'
+        Building C object CMakeFiles/cmTC_cbbbe.dir/HAVE_STDLIB_H.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_cbbbe.dir/HAVE_STDLIB_H.c.o -MF CMakeFiles/cmTC_cbbbe.dir/HAVE_STDLIB_H.c.o.d -o CMakeFiles/cmTC_cbbbe.dir/HAVE_STDLIB_H.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vArvSd/HAVE_STDLIB_H.c
+        Linking C executable cmTC_cbbbe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbbbe.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_cbbbe.dir/HAVE_STDLIB_H.c.o -o cmTC_cbbbe  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vArvSd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFiles.cmake:184 (try_compile)"
+      - "CMakeLists.txt:369 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ACNM2h"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ACNM2h"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "NEED_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ACNM2h'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e433c/fast
+        make -j12  -f CMakeFiles/cmTC_e433c.dir/build.make CMakeFiles/cmTC_e433c.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ACNM2h'
+        Building C object CMakeFiles/cmTC_e433c.dir/NEED_SYS_TYPES_H.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_e433c.dir/NEED_SYS_TYPES_H.c.o -MF CMakeFiles/cmTC_e433c.dir/NEED_SYS_TYPES_H.c.o.d -o CMakeFiles/cmTC_e433c.dir/NEED_SYS_TYPES_H.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ACNM2h/NEED_SYS_TYPES_H.c
+        Linking C executable cmTC_e433c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e433c.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_e433c.dir/NEED_SYS_TYPES_H.c.o -o cmTC_e433c  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ACNM2h'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:171 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:99 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:373 (check_symbol_exists)"
+    checks:
+      - "Looking for memset"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Qqlr6q"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Qqlr6q"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_MEMSET"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Qqlr6q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bcdc5/fast
+        make -j12  -f CMakeFiles/cmTC_bcdc5.dir/build.make CMakeFiles/cmTC_bcdc5.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Qqlr6q'
+        Building C object CMakeFiles/cmTC_bcdc5.dir/CheckSymbolExists.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE -MD -MT CMakeFiles/cmTC_bcdc5.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_bcdc5.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_bcdc5.dir/CheckSymbolExists.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Qqlr6q/CheckSymbolExists.c
+        Linking C executable cmTC_bcdc5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcdc5.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_bcdc5.dir/CheckSymbolExists.c.o -o cmTC_bcdc5  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Qqlr6q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:171 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckSymbolExists.cmake:99 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:374 (check_symbol_exists)"
+    checks:
+      - "Looking for memcpy"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-d598z5"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-d598z5"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_MEMCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-d598z5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69d1c/fast
+        make -j12  -f CMakeFiles/cmTC_69d1c.dir/build.make CMakeFiles/cmTC_69d1c.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-d598z5'
+        Building C object CMakeFiles/cmTC_69d1c.dir/CheckSymbolExists.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -fPIE -MD -MT CMakeFiles/cmTC_69d1c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_69d1c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_69d1c.dir/CheckSymbolExists.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-d598z5/CheckSymbolExists.c
+        Linking C executable cmTC_69d1c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69d1c.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_69d1c.dir/CheckSymbolExists.c.o -o cmTC_69d1c  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-d598z5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:344 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:476 (__check_type_size_impl)"
+      - "CMakeLists.txt:380 (check_type_size)"
+    checks:
+      - "Check size of unsigned char"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-zqWPFV"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-zqWPFV"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_UNSIGNED_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-zqWPFV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4d326/fast
+        make -j12  -f CMakeFiles/cmTC_4d326.dir/build.make CMakeFiles/cmTC_4d326.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-zqWPFV'
+        Building C object CMakeFiles/cmTC_4d326.dir/UNSIGNED_CHAR.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_4d326.dir/UNSIGNED_CHAR.c.o -MF CMakeFiles/cmTC_4d326.dir/UNSIGNED_CHAR.c.o.d -o CMakeFiles/cmTC_4d326.dir/UNSIGNED_CHAR.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-zqWPFV/UNSIGNED_CHAR.c
+        Linking C executable cmTC_4d326
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d326.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_4d326.dir/UNSIGNED_CHAR.c.o -o cmTC_4d326  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-zqWPFV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:344 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckTypeSize.cmake:476 (__check_type_size_impl)"
+      - "CMakeLists.txt:381 (check_type_size)"
+    checks:
+      - "Check size of unsigned short"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-uKAWkR"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-uKAWkR"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_UNSIGNED_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-uKAWkR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_abbf5/fast
+        make -j12  -f CMakeFiles/cmTC_abbf5.dir/build.make CMakeFiles/cmTC_abbf5.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-uKAWkR'
+        Building C object CMakeFiles/cmTC_abbf5.dir/UNSIGNED_SHORT.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_abbf5.dir/UNSIGNED_SHORT.c.o -MF CMakeFiles/cmTC_abbf5.dir/UNSIGNED_SHORT.c.o.d -o CMakeFiles/cmTC_abbf5.dir/UNSIGNED_SHORT.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-uKAWkR/UNSIGNED_SHORT.c
+        Linking C executable cmTC_abbf5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abbf5.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_abbf5.dir/UNSIGNED_SHORT.c.o -o cmTC_abbf5  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-uKAWkR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:384 (check_c_source_compiles)"
+    checks:
+      - "Performing Test INCOMPLETE_TYPES"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-SToKuB"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-SToKuB"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "INCOMPLETE_TYPES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-SToKuB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ce477/fast
+        make -j12  -f CMakeFiles/cmTC_ce477.dir/build.make CMakeFiles/cmTC_ce477.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-SToKuB'
+        Building C object CMakeFiles/cmTC_ce477.dir/src.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DINCOMPLETE_TYPES  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_ce477.dir/src.c.o -MF CMakeFiles/cmTC_ce477.dir/src.c.o.d -o CMakeFiles/cmTC_ce477.dir/src.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-SToKuB/src.c
+        Linking C executable cmTC_ce477
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce477.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_ce477.dir/src.c.o -o cmTC_ce477  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-SToKuB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:442 (check_c_source_compiles)"
+    checks:
+      - "Performing Test INLINE_WORKS"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Fhc2fu"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Fhc2fu"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "INLINE_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Fhc2fu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a127/fast
+        make -j12  -f CMakeFiles/cmTC_0a127.dir/build.make CMakeFiles/cmTC_0a127.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Fhc2fu'
+        Building C object CMakeFiles/cmTC_0a127.dir/src.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DINLINE_WORKS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_0a127.dir/src.c.o -MF CMakeFiles/cmTC_0a127.dir/src.c.o.d -o CMakeFiles/cmTC_0a127.dir/src.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Fhc2fu/src.c
+        Linking C executable cmTC_0a127
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a127.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_0a127.dir/src.c.o -o cmTC_0a127  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Fhc2fu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:81 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:458 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_VERSION_SCRIPT"
+    directories:
+      source: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ZVRvNg"
+      binary: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ZVRvNg"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "ON"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ZVRvNg'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_109c7/fast
+        make -j12  -f CMakeFiles/cmTC_109c7.dir/build.make CMakeFiles/cmTC_109c7.dir/build
+        make[1]: Entering directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ZVRvNg'
+        Building C object CMakeFiles/cmTC_109c7.dir/src.c.o
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_VERSION_SCRIPT  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wl,--version-script,/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/conftest.map -fPIE -MD -MT CMakeFiles/cmTC_109c7.dir/src.c.o -MF CMakeFiles/cmTC_109c7.dir/src.c.o.d -o CMakeFiles/cmTC_109c7.dir/src.c.o -c /home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ZVRvNg/src.c
+        clang: warning: -Wl,--version-script,/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/conftest.map: 'linker' input unused [-Wunused-command-line-argument]
+        Linking C executable cmTC_109c7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_109c7.dir/link.txt --verbose=1
+        /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android21 --sysroot=/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -Wl,--version-script,/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/conftest.map -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_109c7.dir/src.c.o -o cmTC_109c7  -latomic -lm
+        make[1]: Leaving directory '/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-ZVRvNg'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:1328 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:174 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+      Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-"
+      - "llvm-ar-"
+      - "llvm-ar"
+      - "llvm-ar"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ar-"
+      - "/home/said/.cargo/bin/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-"
+      - "/usr/bin/site_perl/llvm-ar-"
+      - "/usr/bin/vendor_perl/llvm-ar-"
+      - "/usr/bin/core_perl/llvm-ar-"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ar-"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ar-"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/usr/local/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/usr/sbin/llvm-ar-"
+      - "/usr/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/sbin/llvm-ar-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/llvm-ar-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/llvm-ar-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/llvm-ar-"
+      - "/usr/X11R6/bin/llvm-ar-"
+      - "/usr/X11R6/sbin/llvm-ar-"
+      - "/usr/X11R6/llvm-ar-"
+      - "/usr/pkg/bin/llvm-ar-"
+      - "/usr/pkg/sbin/llvm-ar-"
+      - "/usr/pkg/llvm-ar-"
+      - "/opt/bin/llvm-ar-"
+      - "/opt/sbin/llvm-ar-"
+      - "/opt/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ar-"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ar-"
+      - "/home/said/.cargo/bin/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/var/lib/flatpak/exports/bin/llvm-ar-"
+      - "/usr/bin/site_perl/llvm-ar-"
+      - "/usr/bin/vendor_perl/llvm-ar-"
+      - "/usr/bin/core_perl/llvm-ar-"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ar-"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ar-"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/usr/local/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/usr/sbin/llvm-ar-"
+      - "/usr/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/sbin/llvm-ar-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/llvm-ar-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/llvm-ar-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/llvm-ar-"
+      - "/usr/X11R6/bin/llvm-ar-"
+      - "/usr/X11R6/sbin/llvm-ar-"
+      - "/usr/X11R6/llvm-ar-"
+      - "/usr/pkg/bin/llvm-ar-"
+      - "/usr/pkg/sbin/llvm-ar-"
+      - "/usr/pkg/llvm-ar-"
+      - "/opt/bin/llvm-ar-"
+      - "/opt/sbin/llvm-ar-"
+      - "/opt/llvm-ar-"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-"
+      - "llvm-ranlib-"
+      - "llvm-ranlib"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ranlib-"
+      - "/home/said/.cargo/bin/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-"
+      - "/usr/bin/site_perl/llvm-ranlib-"
+      - "/usr/bin/vendor_perl/llvm-ranlib-"
+      - "/usr/bin/core_perl/llvm-ranlib-"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ranlib-"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ranlib-"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/usr/local/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/usr/sbin/llvm-ranlib-"
+      - "/usr/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/sbin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/llvm-ranlib-"
+      - "/usr/X11R6/bin/llvm-ranlib-"
+      - "/usr/X11R6/sbin/llvm-ranlib-"
+      - "/usr/X11R6/llvm-ranlib-"
+      - "/usr/pkg/bin/llvm-ranlib-"
+      - "/usr/pkg/sbin/llvm-ranlib-"
+      - "/usr/pkg/llvm-ranlib-"
+      - "/opt/bin/llvm-ranlib-"
+      - "/opt/sbin/llvm-ranlib-"
+      - "/opt/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.venv/bin/llvm-ranlib-"
+      - "/home/said/.cargo/bin/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/var/lib/flatpak/exports/bin/llvm-ranlib-"
+      - "/usr/bin/site_perl/llvm-ranlib-"
+      - "/usr/bin/vendor_perl/llvm-ranlib-"
+      - "/usr/bin/core_perl/llvm-ranlib-"
+      - "/usr/lib/aarch64-linux-android/21/bin/llvm-ranlib-"
+      - "/usr/lib/aarch64-linux-android/21/sbin/llvm-ranlib-"
+      - "/usr/lib/aarch64-linux-android/21/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/usr/local/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/usr/sbin/llvm-ranlib-"
+      - "/usr/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/sbin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/llvm-ranlib-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/llvm-ranlib-"
+      - "/usr/X11R6/bin/llvm-ranlib-"
+      - "/usr/X11R6/sbin/llvm-ranlib-"
+      - "/usr/X11R6/llvm-ranlib-"
+      - "/usr/pkg/bin/llvm-ranlib-"
+      - "/usr/pkg/sbin/llvm-ranlib-"
+      - "/usr/pkg/llvm-ranlib-"
+      - "/opt/bin/llvm-ranlib-"
+      - "/opt/sbin/llvm-ranlib-"
+      - "/opt/llvm-ranlib-"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineASMCompiler.cmake:271 (include)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-"
+      - "clang-scan-deps-"
+      - "clang-scan-deps"
+      - "clang-scan-deps"
+      - "clang-scan-deps-"
+      - "clang-scan-deps-"
+      - "clang-scan-deps"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/said/pygame/mygame/.venv/bin/"
+      - "/home/said/.cargo/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/local/sbin/"
+      - "/var/lib/flatpak/exports/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/aarch64-linux-android/21/bin/"
+      - "/usr/lib/aarch64-linux-android/21/sbin/"
+      - "/usr/lib/aarch64-linux-android/21/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.venv/bin/clang-scan-deps-"
+      - "/home/said/.cargo/bin/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-"
+      - "/usr/bin/site_perl/clang-scan-deps-"
+      - "/usr/bin/vendor_perl/clang-scan-deps-"
+      - "/usr/bin/core_perl/clang-scan-deps-"
+      - "/usr/lib/aarch64-linux-android/21/bin/clang-scan-deps-"
+      - "/usr/lib/aarch64-linux-android/21/sbin/clang-scan-deps-"
+      - "/usr/lib/aarch64-linux-android/21/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/usr/local/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/usr/sbin/clang-scan-deps-"
+      - "/usr/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/sbin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/clang-scan-deps-"
+      - "/usr/X11R6/bin/clang-scan-deps-"
+      - "/usr/X11R6/sbin/clang-scan-deps-"
+      - "/usr/X11R6/clang-scan-deps-"
+      - "/usr/pkg/bin/clang-scan-deps-"
+      - "/usr/pkg/sbin/clang-scan-deps-"
+      - "/usr/pkg/clang-scan-deps-"
+      - "/opt/bin/clang-scan-deps-"
+      - "/opt/sbin/clang-scan-deps-"
+      - "/opt/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-"
+      - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.venv/bin/clang-scan-deps-"
+      - "/home/said/.cargo/bin/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/var/lib/flatpak/exports/bin/clang-scan-deps-"
+      - "/usr/bin/site_perl/clang-scan-deps-"
+      - "/usr/bin/vendor_perl/clang-scan-deps-"
+      - "/usr/bin/core_perl/clang-scan-deps-"
+      - "/usr/lib/aarch64-linux-android/21/bin/clang-scan-deps-"
+      - "/usr/lib/aarch64-linux-android/21/sbin/clang-scan-deps-"
+      - "/usr/lib/aarch64-linux-android/21/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/usr/local/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/usr/sbin/clang-scan-deps-"
+      - "/usr/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/sbin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/bin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/sbin/clang-scan-deps-"
+      - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install/clang-scan-deps-"
+      - "/usr/X11R6/bin/clang-scan-deps-"
+      - "/usr/X11R6/sbin/clang-scan-deps-"
+      - "/usr/X11R6/clang-scan-deps-"
+      - "/usr/pkg/bin/clang-scan-deps-"
+      - "/usr/pkg/sbin/clang-scan-deps-"
+      - "/usr/pkg/clang-scan-deps-"
+      - "/opt/bin/clang-scan-deps-"
+      - "/opt/sbin/clang-scan-deps-"
+      - "/opt/clang-scan-deps-"
+    found: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/home/said/.buildozer/android/platform/android-ndk-r28c"
+        - "/home/said/.buildozer/android/platform/android-sdk/tools"
+        - "/home/said/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/said/pygame/mygame/.venv/bin"
+        - "/home/said/.cargo/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/local/sbin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/aarch64-linux-android/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/said/pygame/mygame/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/arm64-v8a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/home/said/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/home/said/.buildozer/android/platform/android-ndk-r28c"
+...
