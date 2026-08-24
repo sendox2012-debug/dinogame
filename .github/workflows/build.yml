@@ -17,10 +17,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends \
             git zip unzip openjdk-17-jdk \
-            autoconf libtool pkg-config \
+            autoconf automake libtool libtool-bin pkg-config \
             zlib1g-dev libncurses5-dev libncursesw5-dev \
             cmake libffi-dev libssl-dev build-essential \
-            wget curl ca-certificates lld
+            wget curl ca-certificates lld m4
 
       - name: Install Python dependencies
         run: pip install buildozer cython
@@ -34,17 +34,15 @@ jobs:
         run: |
           mkdir -p ~/.buildozer/android/platform
           if [ ! -d ~/.buildozer/android/platform/android-ndk-r25b ]; then
+            echo "Downloading NDK r25b..."
             wget -q https://dl.google.com/android/repository/android-ndk-r25b-linux.zip -O /tmp/ndk.zip
             unzip -q /tmp/ndk.zip -d ~/.buildozer/android/platform/
             rm /tmp/ndk.zip
+            echo "NDK r25b installed successfully"
+          else
+            echo "NDK r25b already exists"
           fi
           ls ~/.buildozer/android/platform/ | grep ndk
-
-      - name: Verify spec
-        run: |
-          echo "--- buildozer.spec ---"
-          cat buildozer.spec
-          echo "--- end ---"
 
       - name: Build APK
         run: buildozer android debug 2>&1 | tee build.log
